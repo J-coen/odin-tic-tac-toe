@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Odin Tic-Tac-Toe</title>
+</head>
+<body>
+
+
+    <div class="game-start-modal active">
+        <div class="start-game">
+          <h3>ENTER PLAYER NAMES AND CLICK START</h3>
+          <div class="player-inputs">
+            <p class="o-logo">O</p>
+            <input type="text" class="input-name" placeholder="Player 1 Name...">
+            <P>vs.</P>
+            <input type="text" class="input-name2" placeholder="Player 2 Name...">
+            <p class="x-logo">x</p>
+          </div>
+          <button class="add">START</button>
+        </div>
+       </div>   
+    
+    
+    <div class="container">
+    
+    <div class="title">
+      <h1>TIC TAC TOE</h1>
+      <div class="names">
+        <h3 class="nameDis"></h3>
+        <div class="middle">
+          <p>Vs.</p>
+          <button class="switch-btn">SWITCH SIDES</button>
+          <button class="reset-btn">Reset</button>
+        </div>
+        <h3 class="nameDis2"></h3>
+      </div>
+    </div>
+    
+      <div class="board-container">
+            <div class="gameBoardSquare" data-boardNum="1"></div>
+            <div class="gameBoardSquare" data-boardNum="2"></div>
+            <div class="gameBoardSquare" data-boardNum="3"></div>
+            <div class="gameBoardSquare" data-boardNum="4"></div>
+            <div class="gameBoardSquare" data-boardNum="5"></div>
+            <div class="gameBoardSquare" data-boardNum="6"></div>
+            <div class="gameBoardSquare" data-boardNum="7"></div>
+            <div class="gameBoardSquare" data-boardNum="8"></div>
+            <div class="gameBoardSquare" data-boardNum="9"></div>
+    
+       </div>
+    </div>
+        <div class="modal">
+            <div class="game-end">
+            <p class="game-end-msg"></p>
+                <button class="play-again">PLAY AGAIN</button>
+            </div>
+      </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
